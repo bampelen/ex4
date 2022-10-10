@@ -1,0 +1,1238 @@
+.caja_negra{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    align-items: flex-end;
+   justify-content: end;
+   
+}
+
+.caja_negra p{
+    font-size: medium;
+    color: white;
+    margin: 0 0.8rem;
+}
+
+.primeras_opciones{
+    display: flex;
+    flex-direction: row;
+}
+.opciones{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0rem 1rem;
+    
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.logo p{
+    font-size:x-large;
+    color: black;
+}
+
+.barra_de_busqueda{
+    display: flex;
+    flex-direction: row;
+    width: 16rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+}
+
+.barra_de_busqueda input{
+    width: 16rem;
+    height: 2rem;
+    background-color: rgb(234, 228, 228);
+    border: none;
+    margin: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.4rem;
+}
+
+.personal{
+ display: flex;
+ flex-direction: row;
+ margin-top: 2rem;
+
+}
+
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    width: 7rem;
+    height: 2rem;
+    background-color: transparent;
+    border-radius: 1.5rem;
+    border:2px solid rgb(202, 201, 201);
+    padding: 5px;
+    justify-content: space-around;
+
+
+}
+
+.imagen1{
+    width: 1rem;
+    height: 1rem;   
+}
+
+.imagen1 img{
+    width: 1rem;
+    height: 1rem;   
+}
+
+.imagen2{width: 1rem;
+    height: 1rem;   
+}
+
+.imagen2 img{
+    width: 1rem;
+    height: 1rem;   
+}
+
+
+.imagen3{width: 1rem;
+    height: 1rem;   
+}
+
+.imagen3 img{
+    width: 1rem;
+    height: 1rem;   
+}
+
+.imagen4{width: 1rem;
+    height: 1rem;   
+}
+
+.imagen4 img{
+    width: 1rem;
+    height: 1rem;   
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    width: 9rem;
+    height: 4rem;
+    background-color: transparent;
+    justify-content: end;
+    
+}
+
+.perfil img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    border: 2px solid rgb(202, 201, 201);
+}
+
+.perfil p{
+  font-size: medium;
+  text-align: end;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+
+.linea{
+    width: 100%;
+    height: 0.1rem;
+    padding: 0rem 1rem;
+    background-color: rgb(194, 190, 190);
+}
+ 
+.caja{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2rem;
+    background-color: transparent;
+    padding: 0rem 1.2rem;
+}
+
+
+
+.volver{
+    display: flex;
+    flex-direction: row;
+    width: 4.5rem;
+    height: 2rem;
+    border: 1px solid rgb(202, 201, 201); 
+    border-radius: 1px;
+    margin-top: 1rem;
+
+}
+
+.volver img{
+    width: 0.8rem;
+    height: 1rem;
+    margin-top: 5px;
+}
+
+.texto0{
+    font-size: x-small;
+    margin-top: 5.5px;
+    text-decoration: none;
+}
+
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    width: 16rem;
+    height: 3rem;
+    text-align: end;
+    margin-left: 4rem;
+    
+}
+
+
+.texto p{
+    font-size: x-small;
+    color: rgb(147, 142, 142);
+    margin-top: 1.5rem;
+    
+}
+
+.texto p.morado{
+    width: 7rem;
+    font-size: small;
+    color: rgb(104, 60, 133);
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+}
+
+.titulo{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.titulo p{
+    font-size: medium;
+    color: black;
+    
+}
+
+.redesycaja{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+    
+}
+
+.caja_morada{
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(221, 202, 239);
+    margin-top: 1.3rem;
+    border-radius: 0.4rem;
+    text-decoration: none;
+}
+
+.caja_morada p{
+    font-size: medium;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 4px;
+    
+}
+
+.morada{
+        font-size: medium;
+        color: blueviolet;
+        text-align: center;
+        margin-top: 5px;
+        text-decoration: none;
+    
+}
+
+.redes{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+    height: 2rem;
+    background-color: transparent;
+    border-radius: 1.5rem;
+    border:2px solid rgb(202, 201, 201);
+    padding: 5px;
+    justify-content: space-around;
+    margin: 0.99rem;
+    
+
+
+}
+
+.imagen1{
+    width: 1rem;
+    height: 1rem;   
+}
+
+.imagen1 img{
+    width: 1rem;
+    height: 1rem;   
+}
+
+.imagen2{width: 1rem;
+    height: 1rem;   
+}
+
+.imagen2 img{
+    width: 1rem;
+    height: 1rem;   
+}
+
+
+.imagen3{width: 1rem;
+    height: 1rem;   
+}
+
+.imagen3 img{
+    width: 1rem;
+    height: 1rem;   
+}
+
+.imagen4{width: 1rem;
+    height: 1rem;   
+}
+
+.imagen4 img{
+    width: 1rem;
+    height: 1rem;   
+}
+
+.marcas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    
+}
+
+.logo2{
+       width: 3rem;
+       height: 5rem;
+       display: flex;
+       flex-direction: row;
+       
+}
+
+ .logo2 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    border: 2px solid rgb(147, 142, 142);
+}
+
+.logo2_texto{
+      width: 3.8rem;
+      height: 4rem;
+      margin-top: 1rem;
+}
+
+.logo2_texto p{
+    font-size: small;
+    color: black;
+}
+ .estrella{
+    width: 2.5rem;
+    height: 3rem;
+    display: flex;
+       flex-direction: row;
+      
+}
+
+.estrella img{
+width: 2rem;
+height: 2rem;
+margin-top: 0.3rem;
+}
+
+.estrella .texto1{
+    
+    width: 3rem;
+    height: 3rem;
+}
+
+.texto1 p{
+    font-size: small;
+    color: black;
+    margin-top: 0.8rem;
+}
+
+.modelo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.grande{
+    width: 100%;
+    height: auto;
+}
+
+.horizontales{
+    width: 100%;
+    height: 30rem;
+}
+
+.grande img{
+    width: 100%;
+    height: auto;
+}
+
+
+.horizontales img{
+    width: 100%;
+    height: auto;
+}
+
+.recomendaciones{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   height: auto;
+   padding: 1rem;
+}
+
+.lado_izquierdo{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+
+
+.overview{
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.seccionOV{
+    width: 10rem;
+    height: 3rem;
+display: flex;
+flex-direction: row;
+margin-top: 1rem;
+
+}
+
+
+
+
+.cuadromorado{
+    display: flex;
+    width: 1rem;
+    height: 2rem;
+    background-color: blueviolet;
+    border-radius: 0.3rem;
+}
+
+.tituloO{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+    font-size: large;
+}
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem;
+}
+
+.leer{
+    margin-top: 1rem;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+
+.ranking{
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    
+}
+
+.seccionV{
+    width: 15rem;
+    height: 3rem;
+display: flex;
+flex-direction: row;
+margin-top: 2rem;
+
+
+}
+
+
+
+
+.cuadromorado2{
+    display: flex;
+    width: 1rem;
+    height: 2rem;
+    background-color: blueviolet;
+    border-radius: 0.3rem;
+}
+
+.tituloO1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    font-size: large;
+}
+
+.estrellas{
+    width: 100%;
+    height: 10rem;
+}
+
+.estrellas img{
+    width: 18rem;
+    height: 7rem;
+}
+
+.linea2{
+    width: 100%;
+    height: 0.1rem;
+    padding: 0rem 1rem;
+    background-color: rgb(194, 190, 190);
+    margin-top: 1rem;
+}
+
+.lado_derecho{
+   width: 100%;
+   height: 10rem;
+  
+}
+
+.size{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 27rem;
+    border: 3px solid rgb(194, 190, 190);
+  
+}
+
+.tallas{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    
+}
+
+.tallas p{
+    margin-top: 1rem;
+}
+
+.letras{
+    display: flex;
+    flex-direction: row;
+    width: 12rem;
+    height: 3rem;
+    border: 2px solid rgb(194, 190, 190);
+    border-radius: 2rem;
+    margin-top: 1rem;
+    justify-content: space-around;
+    padding: 0rem 1rem;
+
+    
+    
+}
+
+.letras p{
+    font-size: large;
+   justify-content: space-around;
+   margin-top: 0.7rem;
+}
+
+.cuadrito_gris{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(194, 190, 190);
+    margin-top: 1rem;
+    padding: 0rem;
+}
+
+
+.flecha{
+    display: flex;
+    flex-direction: row;
+    width: 18rem;
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+.cuadrito_gris .flecha img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+
+}
+
+
+.cuadrito_gris .flecha p{
+    font-size: large;
+    color: rgb(138, 137, 137);
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.Precio{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+}
+
+.Precio p{
+    font-size: larger;
+    color: blueviolet;
+}
+
+.menos{
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    margin-left: 2rem;
+    border: 2px solid rgb(138, 137, 137);
+}
+
+.menos img{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+
+}
+
+.precio p .cantidad{
+margin-left: 1rem;
+} 
+
+
+
+ .cantidad {
+    white-space: 1rem;
+  margin-left: 2rem; 
+ }
+
+ .cantidad p{
+    color: black;
+    font-size: larger;
+ }
+
+.mas{
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    margin-left: 2rem;
+    border: 2px solid rgb(138, 137, 137);
+}
+
+.mas img{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+
+}
+
+.amarillo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(250, 250, 129);
+   
+}
+
+.amarillo img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.amarillo p{
+    font-size: small;
+    color: rgb(240, 113, 21);
+    margin-top: 1rem;
+}
+
+.purpura{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 1rem;
+    
+
+}
+
+.claro{
+    width: 9rem;
+    height: 3rem;
+    background-color: rgb(156, 89, 219);
+   
+}
+
+.purpura p{
+    font-size: small;
+    color: white;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.purpura b{
+    font-size: large;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.cuadro_obscuro{
+    width: 9rem;
+    height: 3rem;
+    background-color: rgb(129, 57, 197);
+    
+}
+
+.cuadro_obscuro p{
+    font-size: large;
+    color: white;
+    margin-left: 0.9rem;
+    margin-top: 1rem;
+    
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18rem;
+    
+}
+
+.secciones{
+    width: 100%;
+    height: auto;
+}
+
+.numero{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.cuadromorado34{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(211, 183, 238);
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.cuadromorado34 p{
+    font-size: large;
+    color:white;
+    margin-left: 0.3rem;
+}
+
+.com{
+    width: 4rem;
+    min-height: 2rem;
+}
+
+.com p{
+    font-size: large;
+    color: black;
+    margin-left: 1rem;
+    margin-top: 0.7;
+
+}
+
+
+
+.cuadro{
+    width: 9rem;
+    height: 2rem;
+    border: 2px solid blueviolet;
+    background-color: rgb(235, 220, 243);
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
+.cuadro p{
+    font-size: medium;
+    color: blueviolet;
+    margin-left: 0.5rem;
+}
+
+.with{
+    width: 9rem;
+    height: 2rem;
+    border: 2px solid rgb(194, 190, 190);
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
+.with p{
+    font-size: medium;
+    color: rgb(138, 137, 137);
+    margin-left: 0.5rem;
+}
+
+.stars{
+    width: 9rem;
+    height: 2rem;
+    border: 2px solid rgb(194, 190, 190);
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
+.stars p{
+    font-size: medium;
+    color: rgb(138, 137, 137);
+    margin-left: 0.5rem;
+}
+
+.sc{
+    width: 100%;
+    height: auto;
+    padding: 0rem 1rem;
+    
+}
+
+.sc img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.reseñas{
+    margin-top: 2rem;
+}
+.primers{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.imagen8{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+.imagen8 img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.desc{
+    padding: 0rem 1rem;
+    width: 100%;
+    height: auto;
+}
+
+
+.desc p{
+    font-size: small;
+    color: rgb(147, 142, 142);
+}
+
+.rs p{
+    font-size: small;
+    margin-top: 0.3rem;
+}
+
+
+.primer2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    
+}
+
+
+
+.imagen9{
+    width: 3rem;
+    height: 3rem;
+    
+}
+.imagen9 img{
+    width: 4rem;
+    height: 3rem;
+}
+
+.desc1 {
+    padding: 0rem 1rem;
+    width: 100%;
+    height: auto;
+}
+
+
+.desc1 p{
+    font-size: small;
+    color: rgb(147, 142, 142);
+}
+
+.rs5 p{
+    font-size: small;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+/* Este @media se ejecuta cuando la plantalla es  mayor o igual a 1200px*/
+
+@media only screen and (min-width: 1200px){
+
+
+.logo p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.barra_de_busqueda{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    
+}
+
+    
+.opciones{
+      display: flex;
+      flex-direction: row;
+}
+
+
+
+
+.iconos{
+    width: 14rem;
+    height: 2rem;
+    align-content: space-around;
+}
+
+.iconos .imagen1 img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.iconos .imagen2 img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.iconos .imagen3 img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+ .iconos  .imagen4 img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+
+.perfil{
+     margin-left: 18rem;
+     height: 5rem;
+     width: 5rem;
+  
+}
+
+.perfil img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.perfil p{
+    margin-top: 0.9rem;
+
+
+}
+
+
+.iconos{
+    margin-left: 20rem;
+}
+
+
+.recomendaciones{
+    margin-top: 1rem;
+}
+
+.modelo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.horizontales{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    width: 75%;   
+    margin-left: 0rem;
+}
+
+.grande{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+.grande img{
+    width: 50rem;
+    height: 30rem;
+}
+
+
+.horizontales img{
+    width:30rem;
+    height: 15rem;
+    margin-left: 0rem;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.titulo{
+    width: 75rem;
+}
+
+.titulo p{
+    font-size: xx-large;
+}
+
+.redesycaja{
+    margin-top: 1rem;
+}
+
+.caja_morada{
+    width: 8rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.caja_morada p{
+    font-size: larger;
+    margin-top: 6px;
+}
+
+.redes{
+    margin-left: 18rem;
+    margin-top: 1rem;
+    width: 12rem;
+    height: 3rem;
+    justify-content: space-around;
+}
+
+  .redes .imagen1 img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.redes .imagen2 img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.redes .imagen3 img{
+    width: 2rem;
+    height: 2rem;
+}
+
+ .redes  .imagen4 img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.texto span{
+color: rgb(124, 48, 137);
+}
+
+.texto {
+    margin-left: 50rem;
+    width: 20rem;
+    
+}
+
+.texto p{
+    font-size: medium;
+}
+
+.volver{
+    width: 8rem;
+    height: 2rem;
+     background-color: transparent;
+}
+
+.texto0{
+    text-decoration: none;
+    width: 10rem;
+    height: 2rem;
+    background-color: transparent;
+    text-align: center;
+}
+
+.estrellas img{
+    width: 36rem;
+    height: 14rem;
+}
+
+.ranking{
+    width: 20rem;
+}
+
+
+
+
+.recomendaciones{
+    display: flex;
+    flex-direction: row;
+}
+
+.lado_izquierdo{
+    width: 70%;
+}
+
+
+
+.lado_derecho{
+    width: 30%;
+    padding: 0rem 2rem;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: row;
+}
+
+.Allre{
+    display: contents;
+    flex-direction: row;
+}
+
+.numero{
+    margin-top: 1rem;
+    width: 20rem;
+    margin-left: 1rem;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    
+}
+
+.secciones{
+    margin-bottom: 1rem;
+}
+
+.reseñas{
+   padding: 0rem 1rem;
+
+}
+.imagen8{
+    width: 5rem;
+    height: 5rem;
+    
+}
+.imagen8 img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.desc{
+    padding: 0rem 1rem;
+    width: 45%;
+    height: auto;
+    margin-left: 2rem;
+}
+
+
+.desc p{
+    font-size: large;
+    color: rgb(147, 142, 142);
+}
+
+.rs p{
+    font-size: medium;
+    margin-top: 0.3rem;
+}
+
+
+.imagen9{
+    width: 5rem;
+    height: 5rem;
+    
+}
+.imagen9 img{
+    width: 6rem;
+    height: 5rem;
+}
+
+.desc1{
+    padding: 0rem 1rem;
+    width: 45%;
+    height: auto;
+    margin-left: 2rem;
+}
+
+
+.desc1 p{
+    font-size: large;
+    color: rgb(147, 142, 142);
+}
+
+.rs5 p{
+    font-size: medium;
+    margin-top: 0.3rem;
+}
+
+
+
+
+
+}
